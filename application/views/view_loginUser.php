@@ -16,8 +16,11 @@
             <input type="text" name="password" value="" size="50">
         </div>
         <div>
-            <input type="submit" value="Register" />
+            <input type="submit" value="Login" />
         </div>
-    
+        <div class="row">
+         <a href="<?php echo base_url('index.php/user/register/');?>">Register</a>
+         </div>
     </form>
+    </div>
 </body>
